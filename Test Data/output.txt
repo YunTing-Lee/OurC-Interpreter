@@ -1,0 +1,115 @@
+Our-C running ...
+> Definition of gA entered ...
+Definition of gY entered ...
+> Definition of gW entered ...
+Definition of gV entered ...
+> Definition of gS entered ...
+> Definition of F81() entered ...
+> Definition of F82() entered ...
+> Definition of F51() entered ...
+> Definition of F52() entered ...
+> Definition of main() entered ...
+> 70
+25
+50
+36
+1883
+13
+-23
+-5
+true
+false
+true
+true
+false
+true
+true
+Bravo Bravo!Hello!Bravo Bravo
+Bravo Bravo
+Bravo Bravo!Hello!Bravo Bravo
+Bravo Bravo!Hello!Bravo BravoaHiWhatWhatHiWhat
+Bravo Bravo
+HiWhat
+Bravo Bravo!Hello!Bravo BravoaHiWhatWhatHiWhat
+------------ Proj. 3 test end --------------
+------------ global init end --------------
+F51( a1, gY, a, gV, s1, s2, s ) : 
+F51() - start.
+F82() starts.
+f81c : 80 c : 50 t : '5Hi' u : 'Hello'
+f81d : 560 d : 290 t : '5Hi' u : '5Hello'
+f81a : 86 c : 50 d : 53 t : '5Hi' u : '55Hello'
+f81b : 150 c : 85 d : 53 t : '55Hi' u : '55Hello'
+F82() ends.
+F82() starts.
+f81c : 92 c : 56 t : '5Hi' u : '55Hello'
+f81d : 1212 d : 616 t : '5Hi' u : '555Hello'
+f81a : 1058 c : 56 d : 539 t : '5Hi' u : '5555Hello'
+f81b : 1122 c : 571 d : 539 t : '55Hi' u : '5555Hello'
+F82() ends.
+F51() - end.
+-319
+a1 : 10 gY : -1131 s1 : Hi s2 : Hi Hi 
+gA+a2+2+F51( gA, a2, gW, b, s2, s1, gS )+3+gA+a2 : 
+F51() - start.
+F82() starts.
+f81c : -664 c : -322 t : '5Hi Hi ' u : 'Hi'
+f81d : -658 d : -319 t : '5Hi Hi ' u : '5Hi'
+f81a : 1920 c : -322 d : 970 t : '5Hi Hi ' u : '55Hi'
+f81b : -62 c : -21 d : 970 t : '55Hi Hi ' u : '55Hi'
+F82() ends.
+F82() starts.
+f81c : -652 c : -316 t : '5Hi Hi ' u : '55Hi'
+f81d : -646 d : -313 t : '5Hi Hi ' u : '555Hi'
+f81a : 220 c : -316 d : 120 t : '5Hi Hi ' u : '5555Hi'
+f81b : 1048 c : 534 d : 120 t : '55Hi Hi ' u : '5555Hi'
+F82() ends.
+F51() - end.
+10375
+gA : 20 a2 : 3814 s1 : Hi Hi  Hi  s2 : Hi Hi 
+a1+a2+2+F51( a1, a2, a, b, s2, s1, gS )+3+a1+a2 : 
+F51() - start.
+F82() starts.
+f81c : 142 c : 81 t : '5Hi Hi ' u : 'Hi Hi  Hi '
+f81d : 134 d : 77 t : '5Hi Hi ' u : '5Hi Hi  Hi '
+f81a : 20 c : 81 d : 20 t : '5Hi Hi ' u : '55Hi Hi  Hi '
+f81b : 122 c : 71 d : 20 t : '55Hi Hi ' u : '55Hi Hi  Hi '
+F82() ends.
+F82() starts.
+f81c : 142 c : 81 t : '5Hi Hi ' u : '55Hi Hi  Hi '
+f81d : 142 d : 81 t : '5Hi Hi ' u : '555Hi Hi  Hi '
+f81a : 140 c : 81 d : 80 t : '5Hi Hi ' u : '5555Hi Hi  Hi '
+f81b : 122 c : 71 d : 80 t : '55Hi Hi ' u : '5555Hi Hi  Hi '
+F82() ends.
+F51() - end.
+-7832
+a1 : 10 a2 : -7774 s1 : Hi Hi  Hi  s2 : Hi Hi 
+F52( gA, gY, gW, gV, s2, s2, s ) + ' OK?' : 
+F52() - start.
+F52() - end.
+Bravo33333333 Wa  Wa  Hi  ChungLi Bravo33333333 Wa  Wa  Hi HiWhat33333333 Wa  Hi  Wa  Hi  OK?
+-----------Simple Variables-------------
+gA : 20 gY : 11874 a1 : 10 a2 : -7774 s1 : Hi Hi  Hi  s2 : Hi Hi  Hi 
+i : 0
+-----------gW[]-------------
+16 24 3993 40 48 56 64 72 80 88 
+-----------gV[]-------------
+16588 16616 16614 16482 16580 3993 16576 16574 16572 16570 
+-----------a[]-------------
+28 11 9 72 20 18 16 14 12 10 
+-----------b[]-------------
+-758 -756 -754 -752 -750 -748 -746 -744 -742 -740 
+-----------gS[]-------------
+Q33333333 Wa  Hi 33333333 Wa  Hi 
+Q33333333 Wa 33333333 Wa 
+Q33333333 Wa  Hi 33333333 Wa  Hi 
+Q33333333 Wa 33333333 Wa 
+Q33333333 Wa  Hi 33333333 Wa  Hi 
+-----------s[]-------------
+Bravo33333333 Wa  Hi  Wa 
+Bravo Bravo33333333 Wa  Wa  Hi 
+HiWhat33333333 Wa  Hi  Wa 
+Bravo Bravo!Hello!Bravo BravoaHiWhatWhatHiWhat33333333 Wa  Wa  Hi 
+Bravo33333333 Wa  Hi  Wa 
+---This cout-stmt is not part of the test data.---Statement executed ...
+> Our-C exited ...
