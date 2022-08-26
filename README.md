@@ -34,3 +34,7 @@ Code::Block20.03
 
 ---
 ## 程式驗證結果
+- 函數、迴圈、條件判斷部分
+	![image](https://github.com/YunTing-Lee/OurC-Interpreter/blob/main/Picture/1.PNG)
+- 偵測錯誤部分
+	![image](https://github.com/YunTing-Lee/OurC-Interpreter/blob/main/Picture/2.PNG)
