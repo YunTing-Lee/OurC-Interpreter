@@ -15,8 +15,8 @@ Code::Block20.03
 	| :--: | :--: |
 	| ListAllVariables() | 列出全域變數，並按照變數名稱由小到大排序排序 |
 	| ListAllFunctions() | 列出使用者所定義的函數，並按照函數名稱由小到大排序排 |
-	| ListVariable(char name[]) | 輸出指定變數的定義 |
-	| ListFunction(char name[]) | 輸出指定函數的定義 |
+	| ListVariable( char name[] ) | 輸出指定變數的定義 |
+	| ListFunction( char name[] ) | 輸出指定函數的定義 |
 	| Done() | 程式結束執行 |
 
 - 錯誤訊息分成以下幾種(錯誤由上至下偵測) : 
