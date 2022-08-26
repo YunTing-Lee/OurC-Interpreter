@@ -9,21 +9,21 @@ Code::Block20.03
 ## 說明
 - Our-C-Grammar-2016-07-15.doc裡有詳細的文法規則
 - 提供以下幾種函數可以使用 :
-|		Error Type		    |			Error Message			                       |
-|		:--:			    |			:--:					                       |
-|ListAllVariables()         | 列出全域變數，並按照變數名稱由小到大排序排序           |
-|ListAllFunctions()         | 列出使用者所定義的函數，並按照函數名稱由小到大排序排  |
-|ListVariable(char name[])  | 輸出指定變數的定義                                      |
-|ListFunction(char name[])  | 輸出指定函數的定義                                      |
-|Done()                     | 程式結束執行                                            |
+| Error Type | Error Message |
+| :--: | :--: |
+| ListAllVariables() | 列出全域變數，並按照變數名稱由小到大排序排序 |
+| ListAllFunctions() | 列出使用者所定義的函數，並按照函數名稱由小到大排序排 |
+| ListVariable(char name[]) | 輸出指定變數的定義 |
+| ListFunction(char name[]) | 輸出指定函數的定義 |
+| Done() | 程式結束執行 |
 
 - 錯誤訊息分成以下幾種(錯誤由上至下偵測) : 
-|		Error Type		|			Error Message			                      |
-|		:--:			|			:--:					                      |
-| Lexical Error         | Line 3 : unrecognized token with first char : '$'       |
-| Syntactical Error     | Line 2 : unexpected token : '`'                         |
-| Semantic Error        | Line 5 : undefined identifier : 'bcd'                   |
-| Runtime Error         | Runtime error : array 'a' index 'i' = 30 out of range!  |
+| Error Type | Error Message |
+| :--: | :--: |
+| Lexical Error | Line 3 : unrecognized token with first char : '$' |
+| Syntactical Error | Line 2 : unexpected token : '`' |
+| Semantic Error | Line 5 : undefined identifier : 'bcd' |
+| Runtime Error | Runtime error : array 'a' index 'i' = 30 out of range! |
 
 
 根據輸入的字串，判斷是否為正確的C語言文法並求出運算值
