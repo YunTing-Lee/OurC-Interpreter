@@ -19,7 +19,7 @@ Code::Block20.03
 	| ListFunction( char name[] ) | 輸出指定函數的定義 |
 	| Done() | 程式結束執行 |
 
-- 錯誤訊息分成以下幾種(錯誤由上至下偵測) : 
+- 錯誤訊息分成以下幾種( 錯誤由上至下偵測 ) : 
 	| Error Type | Error Message |
 	| :--: | :--: | 
 	| Lexical Error | Line 3 : unrecognized token with first char : '$' |
