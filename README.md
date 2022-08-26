@@ -8,7 +8,7 @@ Code::Block20.03
 
 ## 說明
 - Our-C-Grammar-2016-07-15.doc裡有詳細的文法規則
-- 提供以下幾種函數可以使用 :
+- 提供以下幾種函數可以使用 :  
 | Error Type | Error Message |
 | :--: | :--: |
 | ListAllVariables() | 列出全域變數，並按照變數名稱由小到大排序排序 |
