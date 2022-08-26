@@ -6,13 +6,11 @@ Windows 10
 ## 開發環境
 Code::Block20.03
 
-| 欄位1 | 欄位2 | 欄位3 |
-| :-- | --: |:--:|
-| 置左  | 置右 | 置中 |
-
 ## 說明
 - Our-C-Grammar-2016-07-15.doc裡有詳細的文法規則
-- 提供以下幾種函數可以使用 :  
+- 此直譯器會根據使用者所輸入的文字，判斷是否符合所規定的C語言文法，若完全正確則會執行並輸出運算結果
+- 支援全域及區域變數、陣列、巢狀條件判斷、迴圈、函數
+- 提供以下幾種系統函數可以使用 :  
 	| Function | Definition |
 	| :--: | :--: |
 	| ListAllVariables() | 列出全域變數，並按照變數名稱由小到大排序排序 |
@@ -28,18 +26,6 @@ Code::Block20.03
 	| Syntactical Error | Line 2 : unexpected token : '`' |
 	| Semantic Error | Line 5 : undefined identifier : 'bcd' |
 	| Runtime Error | Runtime error : array 'a' index 'i' = 30 out of range! |
-
-
-根據輸入的字串，判斷是否為正確的C語言文法並求出運算值
-當輸入錯誤時會印出該錯誤之行數及錯誤類型(lexical error、syntactical error (token recognized)、semantic error (grammar ok))
-支援語法包含if、else、while、cout、define function等等
-支援陣列宣告及陣列值的運算
-支援全域及區域變數的宣告
-提供 ListVariable("變數名稱")、ListAllVariables()、 ListFunction("名稱")、ListAllFunctions() 等4個功能函數
-可以根據輸入的字串 判斷是否為正確的C語言文法及輸出運算
-可define functions(包含遞迴、function裡再call別的function等等)及執行functions
-function參數傳遞支援call by reference & call by value
-輸入 Done(); 可使程式結束執行
 
 ## 使用方法 :
 1. 編譯並執行
