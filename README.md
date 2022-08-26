@@ -39,4 +39,4 @@ Code::Block20.03
 - 偵測錯誤部分
 	![image](https://github.com/YunTing-Lee/OurC-Interpreter/blob/main/Picture/2.PNG)
 - 較複雜範例
-放置在TestData資料夾內
+	放置在TestData資料夾內
